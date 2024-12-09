@@ -1,0 +1,99 @@
+#navbar #options-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0rem 0.5rem;
+}
+
+#options-container h1 {
+  color: #3C8DAD;
+  font-size: 1.75rem;
+  font-variant: small-caps;
+  letter-spacing: 0.15rem;
+  text-align: center;
+}
+
+#options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selection-btn,
+.alg-btn {
+  border: 0.1rem solid #3C8DAD;
+  font-size: 0.75rem;
+  font-variant: small-caps;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 0.25rem 1.25rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+}
+.selection-btn {
+  color: #fff;
+  background-color: #3C8DAD;
+}
+.alg-btn {
+  color: #3C8DAD;
+  background-color: #fff;
+}
+.selection-btn:hover {
+  color: #3C8DAD;
+  background-color: #fff;
+}
+.alg-btn:hover {
+  color: #fff;
+  background-color: #3C8DAD;
+}
+.selection-btn:active,
+.alg-btn:active {
+  transform: scale(0.98);
+}
+
+#size,
+#speed {
+  color: #2d2d2d;
+  font-size: 0.9rem;
+  padding: 0 0.75rem;
+  font-variant: small-caps;
+  letter-spacing: 0.15rem;
+  font-weight: bold;
+}
+
+#algorithms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border-top: 0.2rem solid #E8F6EF;
+  border-bottom: 0.2rem solid #E8F6EF;
+}
+
+#array {
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#array .bar {
+  background-color: #3C8DAD;
+  border-radius: 0.5rem;
+  display: inline-block;
+  width: 0.3rem;
+  margin: 0.0625rem;
+}
+
+#info {
+  color: #2d2d2dca;
+  line-height: 1.5rem;
+  margin: 1rem 0 0 1rem;
+}
+#info span {
+  color: #3C8DAD;
+  font-style: italic;
+}

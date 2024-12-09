@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting visualizer project</title>
+    <link rel="stylesheet" href="static/css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <nav id="navbar">
+        <div id="options-container">
+          <h1>sort algorithm viewer</h1>
+          <div id="options">
+            <span id="size">size
+              <input type="range" min="50" max="200" step="1" value="125">
+            </span>
+            <span id="speed">speed
+              <input type="range" min="100" max="200" stepDown="10" value="150">
+            </span>
+            <button id="new-array" type="button" class="selection-btn">new array</button>
+          </div>
+        </div>
+        <div id="algorithms">
+          <button id="bubblesort" type="button" class="alg-btn">bubble sort</button>
+          <button id="gnomesort" type="button" class="alg-btn">gnome sort</button>
+          <button id="selectionsort" type="button" class="alg-btn">selection sort</button>
+          <button id="insertionsort" type="button" class="alg-btn">insertion sort</button>
+          <button id="shellsort" type="button" class="alg-btn">shell sort</button>
+          <button id="quicksort" type="button" class="alg-btn">quicksort</button>
+          <button id="mergesort" type="button" class="alg-btn">merge sort</button>
+          <button id="heapsort" type="button" class="alg-btn">heap sort</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="info">
+        <div>Size of the array: <span id="size-text"></span></div>
+        <div>Time: <span id="time-text"></span></div>
+      </div>
+      <div id="array"></div>
+    </main>
+
+    <script src="static/js/app.js"></script>
+    <script src="static/js/sorting.js"></script>
+  </body>
+</html>
